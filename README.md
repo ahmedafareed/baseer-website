@@ -17,13 +17,6 @@ The **Baseer** platform is designed to improve accessibility for visually impair
 2. **E-commerce**: Secure online purchasing, order tracking, and management.
 3. **Supportive Features**: Tutorials, FAQs, and customer support tailored for users with accessibility needs.
 
-## Repository Structure
-
-- `/docs`: Documentation and user manuals.
-- `/src`: Source code for the frontend and backend.
-- `/tests`: Testing scripts and reports.
-- `/images`: Images, videos, and other media assets.
-- `/designs`: Mockups and design files for UI/UX.
 
 ## Team Members
 
