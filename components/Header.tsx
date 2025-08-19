@@ -1,8 +1,6 @@
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Search } from 'lucide-react'
 import ClientHeader from './ClientHeader'
+import SearchForm from './SearchForm'
 
 export default function Header({ children }: { children: React.ReactNode }) {
   return (
@@ -14,24 +12,7 @@ export default function Header({ children }: { children: React.ReactNode }) {
               Baseer
             </Link>
             <div className="flex gap-4 items-center">
-              <form action="/search" method="GET" className="flex-grow max-w-md mx-4">
-                <div className="relative">
-                  <Input
-                    type="text"
-                    name="q"
-                    placeholder="Search for products..."
-                    className="pr-10"
-                  />
-                  <Button
-                    type="submit"
-                    variant="ghost"
-                    size="sm"
-                    className="absolute right-0 top-0 h-full"
-                  >
-                    <Search className="w-4 h-4" />
-                  </Button>
-                </div>
-              </form>
+              <SearchForm />
               <ClientHeader />
             </div>
           </div>
